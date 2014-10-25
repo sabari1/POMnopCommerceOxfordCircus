@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  */
 public class BaseTest extends BasePage {
     @Before
-    public static void before()
+    public void startBrowser()
     {
         driver = new FirefoxDriver();
         driver.get("http://sangajala2-001-site1.smarterasp.net/");
@@ -17,7 +17,7 @@ public class BaseTest extends BasePage {
     }
 
     @After
-    public static void after() {
+    public void stopBrowser() {
         driver.quit();
         driver = null;
     }

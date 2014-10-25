@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 
 
 /**
- * Created by SONY on 22-Oct-14.
+ * Created by Liju on 22-Oct-14.
  */
 public class SmokeTestSuite extends BaseTest{
 
